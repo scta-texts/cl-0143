@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>0143 - ANNo Domini M. CCC. XV. die Martis post quindenam Pentecostes ex parte domini episcopi AEduensis praesentibus archipresbyteris totius AEduensis dioecesis statuta sunt ea quae inferius continentur.</title>
+        <author>Anonymous</author>
+        <editor>Rowan</editor>
+        <!-- 
+          Record ID: 0143
+          Date: 1315
+          Location: Autun
+          Source: Martene, Thesaurus, IV, cols. 493-94
+          
+          Transcribed by: Different Hand Ltd
+          Date Started: 19 Dec 2016
+          Date Finished: 1 Feb 2017
+          Reviewed RWD: 4 Feb 2017
+          Problems or Queries:
+          
+          Notes:
+          
+        -->
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>0143 - ANNo Domini M. CCC. XV. die Martis post quindenam Pentecostes ex parte domini episcopi AEduensis praesentibus archipresbyteris totius AEduensis dioecesis statuta sunt ea quae inferius continentur.</title>
+          <date when="2014-04-14">April 04, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority/>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T4" n="thesIV1717">Martene, Thesaurus, IV, cols. 493-94</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-04-14" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#T4" n="247"/>
+        <cb ed="#T4" n="a"/> <!-- col 493 -->
+      </div>
+    </front>
+    <body>
+      <div xml:id="cl-0143-1">
+        <head xml:id="cl-0143-1-Hd1e100">ANNo Domini M. CCC. XV. die Martis post quindenam Pentecostes ex parte domini episcopi AEduensis praesentibus archipresbyteris totius AEduensis dioecesis statuta sunt ea quae inferius continentur.</head>
+        <p xml:id="cl-0143-1-d1e103">
+          ANNo Domini M. CCC. XV. die Martis post quindenam Pentecostes ex parte domini episcopi AEduensis praesentibus archipresbyteris totius AEduensis dioecesis statuta sunt ea quae inferius continentur. 
+        </p>
+        <p xml:id="cl-0143-1-d1e106">
+          (1) Periculis modis omnibus oviandum. 
+          Datum est intelligi reverendo patri domino episcopo AEduensi, quod nonnulli maligni portantibus litteras domini episcopi vel sui officialis AEduensis insidiantur, et eos capiunt, verberant, vel litteras destruunt. 
+          Idcirco statuimus, ut quotiescumque praedictae litterae ad quemlibet curatum vel vicarium AEduensis dioecesis pervenerint, et deportans coram eis periculum allegaverit, quod ipsum dictum nuncium incontinenti expediant, ut dictum mandatum in dictis litteris contentum faciant sub poena X. librarum, quousque nuncius portans secundum canonum aestimationem possit esse in loco securo, nisi alia causa necessaria emineret. 
+        </p>
+        <p xml:id="cl-0143-1-d1e109">
+          (2) Item praecipitur, quod quolibet mense manuale legatur. 
+        </p>
+        <p xml:id="cl-0143-1-d1e112">
+          (3) Item, omnes impedientes et perturbantes jurisdictionem ecclesiasticam, ubi de jure et antiqua consuetudine juridictio ad forum ecclesiasticum dignoscitur pertinere, sive adeundo ad curiam, sive redeundo, vel alias quoquomodo, sint constitutione Bonifaciana excommunicatione innodati, vobis praecipiendo mandamus in virtute sanctae obedientiae, et sub poena excommunicationis injungimus, quod omnes tales excommunicatos publice nuncietis diebus dominicis et festivis, et ab omnibus celebrantibus in archipresbyteratibus nostris hoc in ecclesiis sive capitulis, sive alte, sive basse, sub eadem poena excommunicationis omnes tales turbantes eodem modo nunciari faciatis. 
+        </p>
+        <p xml:id="cl-0143-1-d1e116">
+          (4) Item, diebus dominicis publici usurarii excommunicentur. 
+        </p>
+        <p xml:id="cl-0143-1-d1e119">
+          (5) Item, sollicitatores monialium excommunicamus, excommunicati publice nuncientur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
